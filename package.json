@@ -2,7 +2,7 @@
   "name": "eyespec",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://axiomproject.github.io/eyespec",
+  "homepage": "https://axiomproject.github.io/eyespecc",
   "type": "module",
   "scripts": {
     "dev": "vite",
