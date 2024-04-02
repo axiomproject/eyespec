@@ -1,0 +1,37 @@
+
+footer {
+    background-color: #0094FF;
+    height: 150px;
+   
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  
+  }
+  
+  .footer-div {
+    padding: 20px;
+  }
+
+  
+  
+  
+  img {
+    margin-top: 15px;
+    width: 300px;
+    height: 60px;
+   
+  }
+  
+
+  .copyright {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .footercreds{
+    margin-top: 5px;
+    font-family: "League Gothic";
+    letter-spacing: 2px;
+    font-size: 20px;
+  }

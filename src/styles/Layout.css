@@ -1,0 +1,587 @@
+main {
+    min-height: calc(114vh - 162px);
+   
+}
+body{
+  width: none;
+}
+main div {
+    padding: 20px;
+    text-align: center;
+}
+
+p{
+    cursor: default;
+    user-select: none;
+}
+
+
+.About {
+margin-top: 15px;
+text-align: center;
+font-family: "League Gothic";
+  margin-bottom: -12px; 
+}
+
+.line-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .line {
+    width: 100px; 
+    height: 1px;
+    background-color: #000; 
+    border-radius: 15px; 
+    transform: scaleY(0.1); 
+    
+
+  }
+  
+  .header2{
+
+   font-family: "Inter";
+   font-size: 25px;
+  }
+
+  .info{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 90px;
+   padding-right: 90px;
+   margin-bottom: 4rem;
+  }
+
+  .info p{
+    margin-bottom: 4rem;
+  }
+
+  .info h2{
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  
+  .faq  {
+    margin-top: 40px;
+    text-align: center;
+    font-family: "League Gothic";
+      margin-bottom: 38px; 
+    }
+
+    .wip-header{
+      line-height: 50rem;
+      font-weight: 700;
+      font-family: "League Gothic";
+      font-size: 50px;
+    }
+
+    .faq h2{
+      margin-bottom: 40px;
+    }
+
+    .name{
+      font-family: "Inter";
+      margin-top: -20px;
+      font-size: 20px;
+    }
+
+    .eye-test-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: calc(114vh - 162px);
+
+    }
+    
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    
+    .square-button {
+      width: 40%;
+      min-width: 600px;
+      max-width: 400px;
+      height: 25rem;
+      border: 1px solid black;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      margin: 20px;
+    }
+    
+    .square-button h3 {
+      font-size: 1.5em;
+      margin-top: -10px;
+      margin-bottom: 10px;
+      font-family: "Inter";
+      font-weight: 700;
+    }
+    
+    .square-button p {
+      font-size: 1.3em;
+      text-align: center;
+      margin-bottom: 10px;
+      font-family: "Inter";
+      font-weight: 500;
+    }
+    
+    .home-container {
+      display: flex;
+      flex-direction: column;
+
+      align-items: center;
+      min-height: calc(114vh - 162px);
+    }
+
+    .main-button {
+      min-width: 600px;
+      max-width: 1800px;
+      height: 30rem;
+      border: 1px solid black;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      margin: 20px;
+      gap: 50px;
+    }
+
+    .main-button h3 {
+      font-size: 2em;
+      justify-content: top;
+      margin-top: -20px;
+      margin-bottom: 10px;
+      font-family: "League Gothic";
+      font-weight: 400;
+      letter-spacing: 4px;
+    }
+    
+    .main-button p {
+      font-size: 1.3em;
+      text-align: center;
+      
+      margin-bottom: 20px;
+      font-family: "Inter";
+      font-weight: 500;
+    }
+
+    .home-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      
+    }
+    
+    .first-button {
+ 
+      min-width: 500px;
+      max-width: 960px;
+      height: 30rem;
+      border: 1px solid black;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      margin: 20px;
+    }
+
+    .first-button h3 {
+      font-size: 1.5em;
+      justify-content: top;
+      margin-top: -10px;
+      margin-bottom: 10px;
+      font-family: "Inter";
+      font-weight: 700;
+    }
+    
+    .first-button p {
+      font-size: 1.3em;
+      text-align: center;
+      
+      margin-bottom: 10px;
+      font-family: "Inter";
+      font-weight: 500;
+    }
+
+    .second-button {
+   
+      min-width: 600px;
+      max-width: 720px;
+      height: 24.5rem;
+      border: 1px solid black;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      margin: 20px;
+      
+    }
+
+    .second-button h3 {
+      font-size: 1.5em;
+      justify-content: top;
+      margin-top: -10px;
+      margin-bottom: 10px;
+      font-family: "Inter";
+      font-weight: 700;
+    }
+    
+    .second-button p {
+      font-size: 1.3em;
+      text-align: center;
+      
+      margin-bottom: 10px;
+      font-family: "Inter";
+      font-weight: 500;
+    }
+
+    .material{
+  
+      border: 1px solid black;
+      color: black;
+     font-family: "Inter";
+      height: 4rem;
+      border-radius: 15px;
+      box-shadow: #000;
+      width: 100%;
+    }
+    .eyetest-material{
+  position: fixed;
+      border: 1px solid black;
+      color: black;
+     font-family: "Inter";
+      height: 4rem;
+      border-radius: 15px;
+      box-shadow: #000;
+      width: 100%;
+      left: 0;
+      bottom: 0 !important;
+    }
+    
+
+    .sariling-row{
+    
+     padding-top: 0;
+      display: flex;
+      flex-direction: column;
+
+     
+     
+    }
+
+    .sunbutton span{
+      margin-right: 0 !important;
+      margin-top: -10 !important;
+    }
+
+    .dryeye-button {
+      width: 150px; /* Set the desired width for the buttons */
+      height: 80px; /* Set the desired height for the buttons */
+      border-radius: 8px; /* Apply border-radius for rounded corners */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 5px; /* Adjust margin as needed */
+      border: 2px solid #007bff !important;
+      color: rgb(21, 115, 144);
+    }
+
+
+    .dryeye-button:active {
+      color: #ffffff !important; /* Change text color to white when button is clicked */
+      background-color: #007bff !important; /* Change background color when button is clicked */
+      border-color: none !important; /* Change border color when button is clicked */
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    .css-wm4zr3-MuiButtonBase-root-MuiButton-root {
+background-color: salmon !important;
+    }
+    
+    .dryeye-button:focus {
+      color: #ffffff !important; /* Change text color to white when button is focused */
+      background-color: none !important; /* Change background color when button is focused */
+      border-color: none !important; /* Change border color when button is focused */
+
+    }
+
+    
+    
+    .dryeye-button:disabled {
+            background-color: white!important;
+      border-color: #ced4da !important; /* Change border color for disabled button */
+    }
+    
+    .dryeye-button .MuiButton-label {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .dryeye-question{
+      font-weight: 700;
+      font-size: 25px;
+      padding-bottom: 20px;
+    }
+
+    .dryeye-titles{
+      margin-top: 10px;
+      color: #ccc;
+      letter-spacing: 5;
+    }
+
+    .dryeye-submit{
+      height: 60px;
+      width: 200px;
+    }
+
+    .dryeye-header{
+      font-family: "League Gothic";
+      font-weight: 400;
+      margin-bottom: 20px;
+ 
+    }
+
+    
+    .input-container {
+   
+      display: inline-block;
+
+
+    }
+    
+    input[type='text'] {
+      width: 40px;
+      height: 40px;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 18px;
+      margin-right: 10px;
+    }
+
+    input[type='text'] {
+
+      border: none !important;
+      text-align: center;
+      font-size: 25px;
+
+    }
+
+    .distancevision-header{
+      font-family: "League Gothic";
+      padding-bottom: 30px;
+    }
+
+    .distancevision-question{
+      font-family: "Courier Std Bold";
+      font-weight: 300;
+    }
+
+    .css-mhc70k-MuiGrid-root {
+      margin-left: 0 !important;
+      }
+
+
+      .nearvision-button{
+        display: flex;
+        gap:10px;
+        justify-content: center;
+        padding-top: 30px;
+      }
+
+      .nearvision-header{
+        font-family: "League Gothic";
+        padding-bottom: 30px;
+      }
+
+   
+      body {
+        perspective:500px;
+        background-color:#E0E0E0;
+        font-family: 'Roboto', sans-serif;
+      
+      }
+      * {
+        box-sizing:border-box;
+      }
+      
+      .father {
+        width:350px;
+        height:500px;
+        margin:50px auto;
+        position:relative;
+        transform-style: preserve-3d;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        transition:all .6s ease-in-out;
+        border-radius:11px;	
+        padding: 0px !important;
+      }
+      
+      .father > div {
+        position:absolute;
+        top:0px;
+        left:0px;
+        width:100%;
+        height:100%;
+        font-size:30px;
+        line-height: 1.7;
+        text-align: center;
+        padding: 0px !important;
+        gap: 5px;
+        
+      }
+      
+      .father  .front {
+        background-color:#FAFAFA;
+        z-index:2;
+        backface-visibility: hidden;
+        border-radius:11px;
+        color:#fff;			
+      }
+      
+      .father .front header {
+        border-radius:11px 11px 0px 0px;
+        height:110px;
+        background-color:rgb(13, 155, 216);
+        padding:30px;
+        color:#fff!important;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+        font-family: "Inter";
+        
+      
+      }
+      .father .front button {
+          border: none;
+          border-radius: 2px;
+          position: relative;
+          height: 46px;
+          margin: 0;
+          min-width: 64px;
+          padding: 0px 26px;
+          font-family: "Roboto","Helvetica","Arial",sans-serif;
+          outline: none;
+          cursor: pointer;
+          text-decoration: none;
+          text-align: center;
+          line-height: 36px;
+          vertical-align: middle;
+          background: rgb(63,81,181);
+          color: rgb(255,255,255);
+        box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+      }
+      .father .front button i {
+              color:#fff!important;
+              padding:5px 20px;
+              font-size:36px;
+              font-weight:400;
+        
+              
+      }
+      .father .front  h3 {
+        font-family: arial;
+        font-size:20px;
+        text-transform:uppercase;
+        word-spacing:.4em;
+        font-weight: 500!important;
+        margin-top:50px;
+        color: black;
+      }
+      .father .front  p {
+        font-size:15px;
+        margin:40px 15px;
+        line-height:1.8;
+        word-spacing:2px;
+        color: black;
+        
+      }
+      
+      
+      .father .back {
+        background-color:#FAFAFA;
+        transform: rotateY(180deg);
+        z-index:1;	
+        backface-visibility: hidden;
+        border-radius:11px;
+        color:#fff;
+        text-align:center;
+        
+      }
+      .father .back header {
+        border-radius:11px 11px 0px 0px;
+        height:110px;
+        background-color:rgb(10, 89, 123);
+        padding:30px;
+        color:#fff!important;
+        margin-bottom:40px;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+        
+      }
+      
+      .father .back h2 {
+        font-size:20px;
+        font-weight: 500;
+        margin:80px auto;
+        text-transform:uppercase;
+        word-spacing:3px;
+        letter-spacing:1.7px;
+      
+      }
+      .father .back ul {
+        list-style:none;
+        margin:0px;
+        padding:0px;
+        margin-bottom:50px;
+      
+
+      
+        
+      }
+
+      .father .back p{
+        color:black;
+      }
+      .father .back ul  li {
+        padding:10px;
+        display:inline-block;
+        
+      }
+      .father .back ul  li a i {
+        transition:all .5s ease-in-out;
+        font-size:34px;
+        font-weight:400;
+        margin-top:50px;
+      }
+      
+      .father .back  p {
+        font-size:15px;
+        margin:65px 15px;
+        line-height:1.8;
+        word-spacing:2px;
+        padding-bottom: 62px;
+      
+      
+        
+      }
+      
+      
+      .father:hover {
+        transform: rotateY(180deg) ;
+        
+      }
+      
+      
+      
