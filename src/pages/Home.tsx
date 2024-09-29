@@ -83,7 +83,7 @@ const Home = () => {
               size="large"
               style={{ backgroundColor: buttonColor, color: textColor }}
             >
-              START TEST
+              START TESTT
             </Button>
           </Link>
         </div>
