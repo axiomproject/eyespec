@@ -83,7 +83,7 @@ const Home = () => {
               size="large"
               style={{ backgroundColor: buttonColor, color: textColor }}
             >
-              JOVEN 
+              WEWEWEW 
             </Button>
           </Link>
         </div>
