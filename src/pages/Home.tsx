@@ -9,7 +9,7 @@ import { useState } from "react";
 
 const buttons = [
   {
-    title: "WELCOME!",
+    title: "WELCOME TO THE SUMMONERS RIFT!",
     description:
       "At Eye Spec, we're dedicated to the health and clarity of your vision. Your eyesight is a precious gift, and it's crucial to protect it. Regular eye tests are a simple yet essential step in maintaining good eye health and ensuring that you see the world in all its brilliance. Our user-friendly online eye test platform provides a convenient and informative way to check your vision from the comfort of your own home. Whether you're due for a check-up or simply curious about your eye health, Eye Spec is here to help.",
   },
@@ -83,7 +83,7 @@ const Home = () => {
               size="large"
               style={{ backgroundColor: buttonColor, color: textColor }}
             >
-              WEWEWEW 
+              START TEST
             </Button>
           </Link>
         </div>
