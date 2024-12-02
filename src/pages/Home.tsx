@@ -9,12 +9,12 @@ import { useState } from "react";
 
 const buttons = [
   {
-    title: "WELCOM!",
+    title: "WELCOME!",
     description:
       "At Eye Spec, we're dedicated to the health and clarity of your vision. Your eyesight is a precious gift, and it's crucial to protect it. Regular eye tests are a simple yet essential step in maintaining good eye health and ensuring that you see the world in all its brilliance. Our user-friendly online eye test platform provides a convenient and informative way to check your vision from the comfort of your own home. Whether you're due for a check-up or simply curious about your eye health, Eye Spec is here to help.",
   },
   {
-    title: "NEAR VISION",
+    title: "MALAYONG TINGIN",
     description:
       "Test your close-up vision, crucial for activities like reading and using digital devices. This assessment will help identify any issues related to presbyopia or other near vision problems.",
   },
@@ -83,7 +83,7 @@ const Home = () => {
               size="large"
               style={{ backgroundColor: buttonColor, color: textColor }}
             >
-              WEWEWEW 
+              START BUTTON 
             </Button>
           </Link>
         </div>
